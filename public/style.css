@@ -1,3 +1,8 @@
 #file-select {
   display: none;
 }
+
+.fakelink {
+  color: blue;
+  text-decoration: underline;
+}
