@@ -2,6 +2,9 @@
 <html>
   <head>
     <link href="style.css" rel="stylesheet">
+    <title>Screenshot Uploader</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <form enctype="multipart/form-data" id="file-form" action="/upload" method="POST">
@@ -9,5 +12,6 @@
       <input type="file" id="file-select" name="screenshot" />
       <button type="submit" id="upload-button">Upload Selected Screen</button>
     </form>
+    Currently selected: <span id="selected">None</span>
   </body>
 </html>
